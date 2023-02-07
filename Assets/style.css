@@ -4,3 +4,130 @@
     font-family: sans-serif;
 }
 
+body {
+ 
+  background: rgb(65, 58, 192);
+
+}
+
+.header {
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: transparent;
+    color: #8CC0DE;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 58px;
+    color: black;
+}
+
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.content {
+    padding: 20px;
+  }
+
+  .About-Me {
+    background-color: transparent;
+    padding: 400px;
+    margin-bottom: 200px;
+    border: 2px solid black;
+    font-size: 40px;
+  }
+  
+  .About-Me h2 {
+    margin: 0;
+  }
+  
+  .skills {
+    background-color: transparent;
+    padding: 400px;
+    margin-bottom: 200px;
+    border: 2px solid black;
+    font-size: 40px;
+  }
+  
+  .skills h2 {
+    margin: 0;
+  }
+  
+  .projects {
+    background-color: transparent;
+    padding: 400px;
+    margin-bottom: 200px;
+    border: 2px solid black;
+    font-size: 40px;
+  }
+  
+  .projects h2 {
+    margin: 0;
+  }
+  
+  .contact-me {
+    background-color: transparent;
+    padding: 400px;
+    border: 2px solid black;
+    font-size: 30px;
+  }
+  
+  .footer {
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  .footer h3 {
+    margin: 0; 
+  }
+ 
+  @media only screen and (max-width: 600px) {
+    body {
+    background: rgb(65, 58, 192);
+    }
+    
+    .header h1 {
+    font-size: 36px;
+    }
+    
+    .header nav ul li {
+    font-size: 16px;
+    margin-left: 15px;
+    }
+    
+    .About-Me {
+    padding: 200px;
+    margin-bottom: 100px;
+    font-size: 24px;
+    }
+    
+    .skills {
+    padding: 200px;
+    margin-bottom: 100px;
+    font-size: 24px;
+    }
+    
+    .projects {
+    padding: 200px;
+    margin-bottom: 100px;
+    font-size: 24px;
+    }
+    
+    .contact-me {
+    padding: 200px;
+    font-size: 20px;
+    }
+  }
